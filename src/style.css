@@ -48,7 +48,7 @@ nav a:hover {
   color: var(--primary-colour);
 }
 
-ul {
+.content ul {
   list-style: none;
 }
 
@@ -98,11 +98,49 @@ ol li {
 }
 
 .truffle-images {
-  width: 250px;
-  margin: 10px auto;
+  margin: 0 auto;
+  display: block;
+  padding-left: 120px;
 }
 
 .variant-images {
   margin: 0 auto;
   max-width: 500px;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .logo {
+    max-height: 30px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .introduction {
+    display: flex;
+    margin: 5px 15px 5px 15px;
+    padding: 0 10px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .content ul {
+    padding-left: 0;
+  }
+
+  .method ol {
+    padding: 0 auto;
+  }
+
+  footer {
+    font-size: 12px;
+  }
 }

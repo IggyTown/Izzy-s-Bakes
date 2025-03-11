@@ -25,8 +25,8 @@
   </head>
   <body>
          <nav class="d-flex justify-content-between">
-             <a href="#"><img src="img/logo.png" alt="Isabel logo" class="logo d-none d-md-block" /></a>
-                <a href="#"><img src="img/logo-small.png" alt="Isabel logo" class="logo d-block d-md-none" /></a>
+             <a href="#"><img src="img/logo.png" alt="Isabel logo" class="logo" /></a>
+               
        <ul class="nav-bar">
           <li class="active"><a href="#ingredients" title="Ingredients" class="p-1">Ingredients</a></li>
           <li><a href="#method" title="method" class="p-1">Method</a></li>
@@ -47,7 +47,7 @@
                          <a href="#method" title="method" class="btn btn-branding">Jump to Method</a>
      </div>
      
-        <div class="row">
+        <div class="content row">
           <div class="col-6">
             <h2 class="ingredients mb-3 mt-3" id="ingredients">Ingredients</h2>
             <ul>
@@ -176,9 +176,9 @@
             </ul>
           </div>
         </div>
-      <div class="row">
-        <div class=" col-7">
-          <h2 class="method mb-3" id="method">Method</h2>
+      <div class="method row">
+        <div class=" col">
+          <h2 class="mb-3" id="method">Method</h2>
          <ol>
             <li class="mb-2">Use a food processor to crush the oreo cookies into crumbs. If you don't have a food processor you can place the oreos in a food bag and crush them with a rolling pin instead.</li>
           <li class="mb-2">Place the crushed oreos, holding back about 2 tablespoons, in a bowl and add the cream cheese. Mix until evenly combined.</li>
@@ -188,12 +188,11 @@
            <li class="mb-2">Take the truffles out the fridge and coat half in the white chocolate and half in the milk/dark chocolate. I do this using two teaspoons and rolling the truffles one by one in the chocolate until coated. Then place back on the baking tray/chopping board. Once back on the tray, drizzle the alternate type of chocolate over the truffle and finish by sprinkling the remaining oreo crumbs, set aside at the start, over the top. Return the tray to the fridge for a couple of hours until hardened. Enjoy! </li>  
         </ol>
           </div>
-       <div class="truffle-images col-5">
-                     <img src="img/oreo mixture.jpeg" alt="#" class="img-fluid rounded-2 mb-2">
-        <img src="img/melted chocolate.jpeg" alt="#" class="img-fluid rounded-2 mb-2">
-        <img src="img/Oreo-Truffles.jpg" alt="#" class="img-fluid rounded-2">
-
-       </div>
+       <div class="col-5 d-none d-lg-block">
+        <div class="truffle-images"><img src="img/oreo mixture.jpeg" alt="#" class="img-fluid rounded-2 mb-2"></div>
+         <div class="truffle-images">        <img src="img/melted chocolate.jpeg" alt="#" class="img-fluid rounded-2 mb-2"></div>
+          <div class="truffle-images">        <img src="img/Oreo-Truffles.jpg" alt="#" class="img-fluid rounded-2"></div>
+          </div>
 
         <div class="variations mb-3 mt-3">
              <h2 class="mb-2" id="variations">Variations</h2>
@@ -204,13 +203,13 @@
             </ul>
         </div>
 <div class="variant-images row">
-    <div class="col-sm">
+    <div class="col">
       <img src="img/mint.jpeg" alt="" class="img-fluid rounded-2">
     </div>
-    <div class="col-sm">
+    <div class="col">
       <img src="img/bailey.jpeg" alt="" class="img-fluid rounded-2">
     </div>
-    <div class="col-sm">
+    <div class="col">
       <img src="img/snowmen.jpeg" alt="" class="img-fluid rounded-2">
     </div>
   </div>
