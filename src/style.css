@@ -62,6 +62,9 @@ ol li {
 }
 
 .container {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/877/original/recipe_book2.png?1741702935);
+  background-size: cover;
+
   margin: 60px auto;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -94,7 +97,6 @@ ol li {
 .logo {
   max-height: 60px;
   border-radius: 10px;
-  margin-left: 5px;
 }
 
 .truffle-images {
